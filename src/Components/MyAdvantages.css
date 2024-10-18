@@ -1,0 +1,35 @@
+#mySkill
+{
+    color: #fff;
+    font-weight: bold;
+    font-size: larger;
+    display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.MyAdvantages
+{
+    padding-top: 100px;
+}
+.advantagesSkill
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap:wrap;
+    
+}
+.AdvSkill
+{
+    flex: 1; /* Each div will have equal width */
+  margin: 10px; /* Optional: Add margin around divs */
+  background-color: #1f1f1f;
+  text-align: center; /* Optional: Center text inside divs */
+  border-radius: 20px;
+  text-wrap: nowrap;
+   
+}
+h4
+{
+    color: #fff;
+}
