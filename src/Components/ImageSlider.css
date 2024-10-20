@@ -1,0 +1,93 @@
+.slider {
+    position: relative;
+    max-width: 50%;
+    height: 420px;
+    margin: 40px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgb(255, 255, 255); /* Add shadow */
+    background-color: white;
+    padding-bottom: ;
+  }
+  
+  .slider-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+  }
+  
+  .slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .slider-image {
+    width: 80%; /* Adjust the width (for example, 60% of the container width) */
+    height: auto; /* Maintain aspect ratio by setting height to auto */
+    object-fit: contain; /* Ensure the image scales without distortion */
+    margin: auto; /* Center the image */
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px; /* Set a fixed width to ensure it's a circle */
+    height: 40px; /* Set a fixed height to match width */
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    border: none;
+    background-color: black;
+    border-radius: 50%; /* This makes the button circular */
+    box-shadow: 0 2px 6px rgba(80, 242, 22, 0.2);
+    user-select: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(255, 255, 255, 1); /* Slightly brighter on hover */
+  }
+  
+  .prev {
+    left: 20px; /* Position the left arrow */
+  }
+  
+  .next {
+    right: 20px; /* Position the right arrow */
+  }
+  
+  /* Dots indicator at the bottom */
+  .dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active-dot {
+    background-color: #717171;
+  }
+  

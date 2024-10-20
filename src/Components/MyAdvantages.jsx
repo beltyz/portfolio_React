@@ -4,7 +4,7 @@ export default function MyAdvantages(){
     return (
         <section className="MyAdvantages">
             <div className="container">
-                <p id="mySkill">MY SKILLS</p>
+                <p id="mySkill">MY SKILLS & CERTIFICATES</p>
                 <div className="advantagesSkill">
                     <div className="AdvSkill">
                         <h4>Languages</h4>

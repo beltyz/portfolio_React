@@ -1,0 +1,7 @@
+{
+    "slides": [
+      { "src": "/certificatesPhoto/certificate_flutter.jpg", "alt": "Image 1 for carousel" },
+      { "src": "/certificatesPhoto/Certificate_iOS_development.png", "alt": "Image 2 for carousel" },
+      { "src": "/certificatesPhoto/SeoCertificate.jpeg", "alt": "Image 3 for carousel" }
+    ]
+  }
