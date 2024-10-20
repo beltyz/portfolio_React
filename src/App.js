@@ -6,6 +6,7 @@ import MyAdvantages from './Components/MyAdvantages.jsx';
 import CursorFollower from './Components/CursorFollower.jsx';
 import {ImageSlider} from './Components/ImageSlider.jsx'
 import slidesData from "./data/carouselData.json";
+import Footer from './footer/footer.jsx';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
      <HomePage></HomePage>
      <MyAdvantages></MyAdvantages>
      <ImageSlider data={slidesData.slides} />
+     <Footer></Footer>
     </div>
    
   );
