@@ -6,8 +6,12 @@
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgb(255, 255, 255); /* Add shadow */
-    background-color: white;
-    padding-bottom: ;
+    background-color: #ffffff;
+  }
+  body
+  {
+    padding-bottom:100px ;
+
   }
   
   .slider-wrapper {
