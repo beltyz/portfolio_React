@@ -42,9 +42,8 @@ p{
     filter: blur(150px);
     position: absolute;
     z-index: -1;
-    transform: translateX(100px);
     top: -40px;
-    right: -40px;
+    right: 0px;
    
 }
 .mainpage-container

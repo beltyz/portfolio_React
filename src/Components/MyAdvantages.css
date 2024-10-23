@@ -19,6 +19,7 @@ align-items: center;
     flex-wrap:wrap;
     
 }
+
 .AdvSkill
 {
     flex: 1; /* Each div will have equal width */
@@ -27,7 +28,19 @@ align-items: center;
   text-align: center; /* Optional: Center text inside divs */
   border-radius: 20px;
   text-wrap: nowrap;
+  transition: 0.3s ease-in-out;
    
+}
+.AdvSkill:hover
+{
+    -webkit-box-shadow: 16px 16px 38px -15px rgba(0, 255, 127, 1);
+    -moz-box-shadow: 16px 16px 38px -15px rgba(0, 255, 127, 1);
+    box-shadow: 16px 16px 38px -15px rgba(0, 255, 127, 1);
+}
+.AdvSkill p
+{
+    margin: 10px;
+    min-width: 200px
 }
 h4
 {
