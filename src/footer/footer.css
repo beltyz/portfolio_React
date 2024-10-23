@@ -11,11 +11,13 @@
     justify-content: space-around;
     width: 90%;
     max-width: 1200px;
+    flex-wrap:wrap;
   }
   
   .footer-section {
+    
     flex: 1;
-    margin: 0 20px;
+    margin: 0 40px;
   }
   
   .footer-logo {

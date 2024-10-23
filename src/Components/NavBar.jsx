@@ -14,7 +14,15 @@ export default function NavBar()
                         <li><a href="#contact" className='navBarItem'>Contact</a></li>
                     </ul>
                 </nav>
-                
+                <nav className='burgerMenu'>
+                    <ul id='menu'>
+                    <a href="#"><li>Home</li></a>
+                        <a href="#"><li>About</li></a>
+                        <a href="#"><li>Info</li></a>
+                        <a href="#"><li>Contact</li></a>
+                        <a href="https://erikterwan.com/" ></a>
+                    </ul>
+                </nav>
             </div>
         </header>
       );

@@ -68,11 +68,11 @@
   .next {
     right: 1%; /* Position the right arrow */
   }
-  
+
   /* Dots indicator at the bottom */
   .dots {
     position: absolute;
-    bottom: 20px;
+    bottom: 2%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -93,4 +93,31 @@
   .active-dot {
     background-color: #717171;
   }
-  
+  @media screen and (max-width: 757px) {
+    .prev
+    {
+        display: none;
+    }
+    .next
+    {
+        display: none;
+    }
+    .dot {
+        cursor: pointer;
+        height: 5px;
+        width: 5px;
+        margin: 0 5px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      .slider-image {
+        width: 100%; /* Adjust the width (for example, 60% of the container width) */
+        height: auto; /* Maintain aspect ratio by setting height to auto */
+        object-fit: contain; /* Ensure the image scales without distortion */
+        margin: auto; /* Center the image */
+        margin: 0px;
+      }
+    
+  }

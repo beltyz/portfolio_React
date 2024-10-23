@@ -10,6 +10,10 @@
     border-bottom: 2px solid white; */
     
   }
+  .burgerMenu
+  {
+    display: none;
+  }
   
   .navbar-menu {
     display: flex;
@@ -43,5 +47,14 @@
     color: #ffff;
    font-weight:bold ;
   }
-  
+@media screen and (max-width: 757px) {
+  .navbar
+  {
+    display:none;
 
+  }
+  /* .burgerMenu
+  {
+    display: block;
+  } */
+}
