@@ -15,7 +15,9 @@ const Footer = () => {
           Feel free to reach out for any collaborations or inquiries!
           </p>
           <p className="footer-contact">
-            <i className="fas fa-envelope"></i>lusikdima4@gmail.com
+          <i className="fas fa-envelope"></i>
+            <a className="mail" href="mailto:lusikdima4@gmail.com">lusikdima4@gmail.com</a>
+            
           </p>
         </div>
 

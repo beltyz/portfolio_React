@@ -79,4 +79,8 @@
   .footer-social-icons a:hover {
     color: #00aced;
   }
-  
+  .mail
+  {
+    color: white;
+    text-decoration: none;
+  }

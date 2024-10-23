@@ -1,20 +1,25 @@
 
 .navbar {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     border-radius: 40px;
-    margin-top: 20px;
+    padding-top: 20px;
+    /* margin-top: 20px;
     background-color: #1f1f1f;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid white; */
     
   }
   
   .navbar-menu {
     display: flex;
     list-style: none;
-    gap: 90px;
-    justify-content: space-between;
+    margin: 0px;
+    padding: 20px 0px;
+    background-color: #1f1f1f;
+    border-radius: 40px;
+    border-bottom: 2px solid white;
+    justify-content: space-around;
     
   }
   .navBarItem

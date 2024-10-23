@@ -17,7 +17,7 @@ function App() {
      <HomePage></HomePage>
      <MyAdvantages></MyAdvantages>
      <ImageSlider data={slidesData.slides} />
-     <Footer></Footer>
+     <Footer></Footer> 
     </div>
    
   );

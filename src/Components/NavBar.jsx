@@ -14,7 +14,9 @@ export default function NavBar()
                         <li><a href="#contact" className='navBarItem'>Contact</a></li>
                     </ul>
                 </nav>
+                
             </div>
         </header>
       );
+
 }
